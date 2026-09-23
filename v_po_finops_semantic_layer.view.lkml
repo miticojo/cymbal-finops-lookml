@@ -67,7 +67,7 @@ view: multicloud_recommender_hub {
 
   dimension: po_code {
     type: string
-    sql: REPLACE(${TABLE}.pbo_id, 'PBO-', 'PO-') ;;
+    sql: ${TABLE}.po_code ;;
     label: "PO (Centro di Costo)"
   }
   dimension: source_engine {
