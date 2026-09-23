@@ -8,9 +8,14 @@ explore: cymbal_po_finops_executive {
 
   join: multicloud_recommender_hub {
     type: left_outer
-    relationship: many_to_one
+    relationship: one_to_many
     sql_on: ${cymbal_po_finops_executive.po_code} = ${multicloud_recommender_hub.po_code} ;;
   }
+}
+
+explore: multicloud_recommender_hub {
+  label: "Cymbal Telco — Multi-Cloud Recommender & AI Filter"
+  description: "Valutazione Architetturale AI dei Recommender Cloud per PO (PO-100, PO-200, PO-300)"
 }
 
 explore: v_po_finops_semantic_layer {

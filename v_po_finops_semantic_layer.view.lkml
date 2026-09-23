@@ -65,6 +65,12 @@ view: v_po_finops_semantic_layer {
 view: multicloud_recommender_hub {
   sql_table_name: `giorgioc-looker.cymbal_finops_focus.multicloud_recommender_hub` ;;
 
+  dimension: recommendation_id {
+    primary_key: yes
+    type: string
+    sql: ${TABLE}.recommendation_id ;;
+  }
+
   dimension: po_code {
     type: string
     sql: ${TABLE}.po_code ;;
