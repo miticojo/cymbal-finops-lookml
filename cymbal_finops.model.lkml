@@ -1,6 +1,5 @@
 connection: "default_bigquery_connection"
 include: "*.view.lkml"
-include: "views/*.view.lkml"
 
 explore: cymbal_po_finops_executive {
   from: v_po_finops_semantic_layer
@@ -24,8 +23,7 @@ explore: v_po_finops_semantic_layer {
   description: "Vista Semantica Governata per gli Agenti AI (cymbal-finops-governor)"
 }
 
-explore: cymbal_udm_customer_360_golden {
-  from: dp_finance_customer_360_golden
+explore: dp_finance_customer_360_golden {
   label: "Cymbal Telco UDM — Data Product Finance & Golden Rule (Actual vs Budget)"
   description: "Esplorazione certificata del Data Product UDM Finance: Ricavi Actual vs Budget (Golden Rule), EBITDA, Segmenti B2C/B2B, Canali di Vendita e QoS Databricks"
 }
