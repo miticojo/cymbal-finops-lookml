@@ -27,3 +27,24 @@ explore: dp_finance_customer_360_golden {
   label: "Cymbal Telco UDM — Data Product Finance & Golden Rule (Actual vs Budget)"
   description: "Esplorazione certificata del Data Product UDM Finance: Ricavi Actual vs Budget (Golden Rule), EBITDA, Segmenti B2C/B2B, Canali di Vendita e QoS Databricks"
 }
+
+explore: v_finops_practitioner_workbench {
+  label: "Cymbal Telco — FinOps Explorer (Progetti, CdC, Ambienti & Domini)"
+  description: "Vista operativa FinOps per filtrare costi, tagging hygiene e saving su BigQuery/Data, Infrastruttura e AI"
+}
+
+explore: v_bigquery_cost_anatomy {
+  label: "Cymbal Telco — Focus BigQuery (Anatomia Costi: Slots, On-Demand, Storage Physical/Logical & Time-Travel)"
+  description: "Disamina granulare dei 4 pilastri di costo BigQuery con query INFORMATION_SCHEMA"
+}
+
+explore: v_commitment_portfolio {
+  label: "Cymbal Telco — Rate Optimization & Commitment Portfolio"
+  description: "Monitoraggio cross-cloud CUD, FSP, RI & Savings Plan: Coverage %, Utilization %, Waste & Expiration"
+}
+
+explore: v_tagging_hygiene_matrix {
+  label: "Cymbal Telco — Tagging Hygiene & Policy Drift Matrix"
+  description: "Audit compliance dei tag, spesa non allocata (15.8%), policy drift Sentinel/Checkov e riallocazione contabile"
+}
+
